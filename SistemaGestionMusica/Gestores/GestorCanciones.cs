@@ -5,7 +5,7 @@ public class GestorCanciones
     //Atributos
     List<Cancion> CancionesDisponibles { get; set; }
 
-    private GestorCanciones()
+    public GestorCanciones()
     {
         CancionesDisponibles = new List<Cancion>();
     }
