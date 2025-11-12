@@ -1,4 +1,4 @@
-# 2do-Parcial
+# Técnicas de Programación: Segundo examen parcial.
 
 ### Integrantes del equipo:
 * Alfaro Cruz Miguel Fernando.
