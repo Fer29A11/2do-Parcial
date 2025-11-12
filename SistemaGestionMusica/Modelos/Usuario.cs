@@ -1,4 +1,4 @@
-﻿namespace SsitemaMusica.Modelos;
+﻿namespace SistemaMusica.Modelos;
 // Clase para usuarios
 public class Usuario
 {
