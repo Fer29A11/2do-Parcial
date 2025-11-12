@@ -1,5 +1,4 @@
-﻿
-namespace SsitemaMusica.Modelos;
+﻿namespace SistemaMusica.Modelos;
 // Clase para canciones
 public class Cancion
 {
