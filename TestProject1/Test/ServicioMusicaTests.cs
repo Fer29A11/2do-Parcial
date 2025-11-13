@@ -38,9 +38,9 @@ namespace SistemaMusica.Test
             ServicioMusica servicio = new ServicioMusica();
             string nombreUsuario = "Carlos";
             // Act
-            servicio.BuscarUsuario(nombreUsuario);
+            var usuario = servicio.BuscarUsuario(nombreUsuario);
             // Assert
-            Assert.Null(nombreUsuario);
+            Assert.Null(usuario);
         }
     }
 }
