@@ -1,9 +1,11 @@
-﻿using SistemaMusica.Modelos;
+﻿using SistemaMusica.Gestores;
+using SistemaMusica.Modelos;
+using SistemaMusica.Servicios;
 namespace SistemaMusica.Gestores;
 public class GestorCanciones
 {
     //Atributos
-    List<Cancion> CancionesDisponibles { get; set; }
+    public List<Cancion> CancionesDisponibles { get; set; }
 
     public GestorCanciones()
     {

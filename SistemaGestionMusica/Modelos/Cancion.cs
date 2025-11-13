@@ -20,6 +20,6 @@ public class Cancion
     {
         int minutos = Duracion / 60;
         int segundos = Duracion % 60;
-        return $"{Nombre} - {Artista} ({minutos}:{segundos})";
+        return $"{Nombre} - {Artista} ({minutos}:{segundos:D2})";
     }
 }

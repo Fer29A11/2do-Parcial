@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36401.2 d17.14
+VisualStudioVersion = 17.14.36401.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaMusica", "SistemaMusica.csproj", "{AB6DE8CE-8935-42D3-B937-E06D7B6AE405}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaMusica.Tests", "..\SistemaGestionMusica.Tests\SistemaMusica.Tests.csproj", "{DD524E26-C2A9-42E1-AD07-8D6FBCE56A78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "..\TestProject1\TestProject1.csproj", "{70CBCF21-DD0C-4A52-A004-F1A0C942F109}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{AB6DE8CE-8935-42D3-B937-E06D7B6AE405}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB6DE8CE-8935-42D3-B937-E06D7B6AE405}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB6DE8CE-8935-42D3-B937-E06D7B6AE405}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD524E26-C2A9-42E1-AD07-8D6FBCE56A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD524E26-C2A9-42E1-AD07-8D6FBCE56A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD524E26-C2A9-42E1-AD07-8D6FBCE56A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD524E26-C2A9-42E1-AD07-8D6FBCE56A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CBCF21-DD0C-4A52-A004-F1A0C942F109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CBCF21-DD0C-4A52-A004-F1A0C942F109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CBCF21-DD0C-4A52-A004-F1A0C942F109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CBCF21-DD0C-4A52-A004-F1A0C942F109}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

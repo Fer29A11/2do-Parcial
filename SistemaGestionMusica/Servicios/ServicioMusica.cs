@@ -1,11 +1,18 @@
 ﻿using SistemaMusica.Gestores;
 using SistemaMusica.Modelos;
-namespace SistemaGestionMusica.Servicios;
-internal class ServicioMusica
+namespace SistemaMusica.Servicios;
+public class ServicioMusica
 {
     //Atributos
-    GestorCanciones Gestor {  get; set; }
-    List<Usuario> Usuarios { get; set; }
+    public GestorCanciones Gestor {  get; set; }
+    public List<Usuario> Usuarios { get; set; }
+
+    //Constructor
+    public ServicioMusica()
+    {
+        Gestor = new GestorCanciones();
+        Usuarios = new List<Usuario>();
+    }
 
     //Métodos
     public void RegistrarUsuario(string nombre)
@@ -15,13 +22,16 @@ internal class ServicioMusica
         Console.WriteLine($"Se ha añadido a {nombre} a la lista de usuarios.");
     }
 
-    public void BuscarUsuario(string nombre)
+    public Usuario BuscarUsuario(string nombre)
     {
-        var usuario = Usuarios.FirstOrDefault(u => u.Nombre.Equals(nombre, StringComparison.OrdinalIgnoreCase));
+        Usuario usuario = Usuarios.FirstOrDefault(u => u.Nombre.Equals(nombre, StringComparison.OrdinalIgnoreCase));
         if (usuario == null)
         {
-            throw new Exception($"No se encontró al usuario {nombre}");
+            Console.WriteLine($"El usuario: {nombre} no existe.");
+            return null;
         }
+        else
+            return usuario;
     }
 
 }
